@@ -1,6 +1,6 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Consumption - Booking'
-@Metadata.ignorePropagatedAnnotations: true
+@Metadata.allowExtensions: true
 define view entity Z_C_BOOKING_7164
   as projection on Z_I_BOOKING_7164
 {
